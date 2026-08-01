@@ -2,6 +2,24 @@
 
 `gdcli` is a lightweight, command-line interface tool designed to interact with Google Drive. It allows you to manage configurations, authenticate, upload/download files and folders, handle streams via `stdin`/`stdout`, and manage remote items efficiently.
 
+
+## Google OAuth Configuration
+
+`gdcli` requires a Google OAuth Client configuration.
+
+For security reasons, OAuth credentials are not included with the binary distribution.
+
+Before using `gdcli`, create your own OAuth client in Google Cloud Console and configure:
+
+- project_id
+- client_id
+- client_secret
+
+See:
+
+docs/google-oauth-setup.md
+
+
 ---
 
 ## Table of Contents
